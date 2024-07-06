@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     }
+     label{
+        size: 22px;
+     }
+     input{
+        width: 30%;
+     }
+     button{
+        width: 60px;
+     }
+     .user-info span {
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+    .btn-class{
+        margin-left:10px;
+        margin-left: 10px;
+    }
+    .list-el{
+     margin: 15px;
+    }
+    </style>
+    <title>Booking App</title>
+</head>
+<body> 
+    <form id="form">
+        <h3>Booking App</h3>
+        <label for="username">Name</label>
+        <input id="username" />
+        <label for="email">Email</label>
+        <input id="email" />
+        <label for="phone">Phone No.</label>
+        <input id="phone" />
+        <button type="submit">Submit</button>
+    </form>
+    <ul id="ullist">  
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="client.js"></script>
+    
+</body>
+</html>
